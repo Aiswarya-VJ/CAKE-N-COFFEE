@@ -90,5 +90,6 @@ margin: 0;
 }
 .hero-section .content button:hover{
     color: #ffffff;
-    background: #893504;
+    background: #833305;
+    box-shadow: 0 0 15px #652601b5;
 }
