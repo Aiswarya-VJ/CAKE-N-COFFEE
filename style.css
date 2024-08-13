@@ -75,3 +75,20 @@ margin: 0;
     margin-top: 15px;
     max-width: 600px;
 }
+.hero-section .content button{
+    background: #652601;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.hero-section .content button:hover{
+    color: #ffffff;
+    background: #893504;
+}
