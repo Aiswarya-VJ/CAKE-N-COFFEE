@@ -15,10 +15,41 @@ body{
 
 }
 .left-image{
-    width: 40vw; /* 25% of the viewport width */
-    height: 40vh;
-    background: url("c3.jpg") no-repeat center;
+    width: 25vw; /* 25% of the viewport width */
+    height: 80%;
+    background: url("c4.jpg") no-repeat center;
     background-size: cover;
+    margin-left: 10%;
+    margin-top: 40%;
+    margin-bottom: 40%;
+    background-size: contain;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+header .navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.navbar .logo{
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+.navbar .logo span{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.navbar .menu-links{
+display: flex;
+gap: 40px;
 }
 .navbar a{
     color:rgb(54, 26, 10);
