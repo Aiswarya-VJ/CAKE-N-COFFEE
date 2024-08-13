@@ -50,14 +50,16 @@ header .navbar{
     transition: 0.2s ease;
 }
 .navbar .menu-links{
-display: flex;
+display:flex;
 gap: 20px;
 list-style: none;
 padding: 10px;
 margin: 0;
 }
 .navbar a{
-    color:rgb(101, 38, 1);
+    color:#652601;
     text-decoration: none;
-    padding-left: 10px;
+}
+.hero-section .content{
+    color: #652601;
 }
