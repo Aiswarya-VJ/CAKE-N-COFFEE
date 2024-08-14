@@ -106,5 +106,9 @@ margin: 0;
     width: 260%;
     height: 100vh;
     background: #ffffff;
+    padding: 70px 40px 0;
     }  
+    .navbar a{
+        color: #652601;
+    }
 }
