@@ -30,7 +30,7 @@ header{
     left: 0;
     width: 100%;
     padding: 20px;
-    background-color: #8f3a0918;
+    background-color: #86360818;
 }
 header .navbar{
     display: flex;
@@ -59,7 +59,7 @@ padding: 10px;
 margin: 0;
 }
 .navbar a{
-    color:#652601;
+    color:#632602;
     text-decoration: none;
 }
 .hero-section .content{
