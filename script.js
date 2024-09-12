@@ -1,5 +1,5 @@
 const textElement = document.getElementById('dynamic-word');
-const textArray = ["Flavours.", "Love."];
+const textArray = ["Flavours", "Love"];
 let arrayIndex = 0;
 let charIndex = 0;
 let isDeleting = false;

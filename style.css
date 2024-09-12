@@ -76,6 +76,7 @@ margin: 0;
 #dynamic-word {
     color: #D2691E; /* Coffee-like color */
     font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
     transition: color 0.3s ease;
 }
 
