@@ -94,26 +94,77 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     text-align: left;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
 }
 
 /* Image container */
 .left-image {
     flex: 1; /* Allows the image to take up one part of the flex space */
-    margin-right: 20px; /* Add space between image and text */
+    margin-right: 20px;
+    margin-bottom: 20px; /* Space between image and text */
 }
 
 /* Style the image */
 .home-image {
-    width: 300px; /* Set square size */
-    height: 300px;
-    object-fit: cover; /* Ensures the image maintains aspect ratio and fills the square */
-    border-radius: 10px; /* Optional: Add rounded corners */
+    width: 25vw; /* Adjusts image width relative to viewport */
+    height: 25vw; /* Keeps the image square */
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 300px; /* Maximum size for large screens */
+    max-height: 300px;
 }
 
 /* Text content styling */
 .text-content {
-    flex: 2; /* Allows text content to take up more space */
+    flex: 2;
 }
+
+.text-content h1 {
+    font-size: 4vw; /* Adjusts size relative to viewport width */
+    color: #653401;
+    max-width: 100%;
+}
+
+.text-content p {
+    font-size: 2vw;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+#dynamic-word {
+    color: #9c4201;
+    font-weight: bold;
+    transition: color 0.4s ease;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .home-image {
+        width: 50vw;
+        height: 50vw;
+        max-width: none;
+        max-height: none;
+    }
+
+    .text-content h1 {
+        font-size: 6vw;
+    }
+
+    .text-content p {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-content h1 {
+        font-size: 8vw;
+    }
+
+    .text-content p {
+        font-size: 4vw;
+    }
+}
+
 
 .text-content h1 {
     font-size: 3rem;
