@@ -175,3 +175,19 @@ header {
     font-size: 1.5rem;
     margin-top: 15px;
 }
+
+
+.about-section h2 {
+    text-align: center; /* Center-align the heading */
+    color: #fcfcfc;     /* Set color */
+    margin-top: 20px;
+}
+.about-section p {
+    text-align: left;  /* Left-align the paragraph */
+    font-size: 1.2rem; /* Adjust font size */
+    line-height: 1.6;  /* Improve readability */
+    color: #ffffff;       /* Set paragraph text color */
+    font-family: 'Times New Roman', serif;
+    max-width: 800px;  /* Limit paragraph width */
+    margin: 0 auto;    /* Center paragraph container */
+}
