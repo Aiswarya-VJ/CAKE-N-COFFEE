@@ -176,18 +176,78 @@ header {
     margin-top: 15px;
 }
 
+/* About Section */
+.about-section {
+    align-items: flex-start; /* Align items at the top */
+    padding: 100px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.about-section .content-wrapper {
+    text-align: left;  /* Left-align the content wrapper */
+    max-width: 800px;  /* Limit width for a better layout */
+    margin: 0 auto;    /* Center the content wrapper */
+}
 
 .about-section h2 {
     text-align: center; /* Center-align the heading */
-    color: #fcfcfc;     /* Set color */
-    margin-top: 20px;
+    font-size: 2.5rem;  /* Adjust font size */
+    color: #653401;     /* Set heading color */
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 50px; /* Creates space between heading and content */
+    margin-top: 0; /* Ensures the heading is at the top */
 }
+
 .about-section p {
     text-align: left;  /* Left-align the paragraph */
     font-size: 1.2rem; /* Adjust font size */
     line-height: 1.6;  /* Improve readability */
-    color: #ffffff;       /* Set paragraph text color */
+    color: #653401;       /* Set paragraph text color */
     font-family: 'Times New Roman', serif;
-    max-width: 800px;  /* Limit paragraph width */
-    margin: 0 auto;    /* Center paragraph container */
+}
+/* Image Styling */
+.right-image-wrapper {
+    max-width: 25%; /* The image container takes 35% of the width */
+    text-align: right;
+}
+
+.about-image {
+    width: 100%; /* The image will fill the right container */
+    max-width: 250px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded corners to the image */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for a polished look */
+}
+/* About Section */
+.about-section {
+    align-items: flex-start; /* Align items at the top */
+    padding: 100px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.about-section .content-wrapper {
+    text-align: left;  /* Left-align the content wrapper */
+    max-width: 800px;  /* Limit width for a better layout */
+    margin: 0 auto;    /* Center the content wrapper */
+}
+
+.about-section h2 {
+    text-align: center; /* Center-align the heading */
+    font-size: 2.5rem;  /* Adjust font size */
+    color: #653401;     /* Set heading color */
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 50px; /* Creates space between heading and content */
+    margin-top: 0; /* Ensures the heading is at the top */
+}
+
+.about-section p {
+    text-align: left;  /* Left-align the paragraph */
+    font-size: 1.2rem; /* Adjust font size */
+    line-height: 1.6;  /* Improve readability */
+    color: #653401;       /* Set paragraph text color */
+    font-family: 'Times New Roman', serif;
 }
