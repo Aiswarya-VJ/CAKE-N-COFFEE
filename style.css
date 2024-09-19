@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
 }
 
 body {
@@ -75,11 +75,13 @@ header {
 .section h2 {
     font-size: 3rem;
     margin-bottom: 20px;
+    font-family: 'Times New Roman', sans-serif;
 }
 
 .section p {
     font-size: 1.5rem;
     color: #653401;
+    text-align: center;
 }
 
 /* Dynamic word color */
@@ -229,7 +231,7 @@ header {
     background-color: #ffffff;
 }
 
-.about-section .content-wrapper {
+.about-section .content-wrapper { 
     text-align: left;  /* Left-align the content wrapper */
     max-width: 800px;  /* Limit width for a better layout */
     margin: 0 auto;    /* Center the content wrapper */
